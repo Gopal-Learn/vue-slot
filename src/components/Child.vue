@@ -1,0 +1,17 @@
+<template>
+  <div class="child">
+    <slot></slot>
+    <div>Hello, I am from Child.</div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Child'
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>
